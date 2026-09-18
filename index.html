@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Passwordless Guard</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 420px; margin: 80px auto; }
+    input { padding: 8px; width: 100%; box-sizing: border-box; margin-bottom: 12px; }
+    button { padding: 10px 16px; cursor: pointer; }
+    #status { margin-top: 16px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h2>Passwordless Guard</h2>
+  <p>Register with your fingerprint, face, or security key — no password.</p>
+
+  <input type="text" id="username" placeholder="Choose a username" />
+  <button id="registerBtn">Register with device</button>
+
+  <div id="status"></div>
+
+  <script type="module" src="/client.js"></script>
+</body>
+</html>

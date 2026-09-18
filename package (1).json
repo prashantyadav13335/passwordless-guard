@@ -1,0 +1,16 @@
+{
+  "name": "passwordless-guard",
+  "version": "1.0.0",
+  "description": "WebAuthn/FIDO2 passwordless authentication demo",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@simplewebauthn/browser": "^10.0.0",
+    "@simplewebauthn/server": "^10.0.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
